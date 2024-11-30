@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .icon{
+    display:none;
+  }
+}
+
+@media screen and (max-width:370px){
+  aside{
+    display: none;
+  }
+  .profile-container{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+}
